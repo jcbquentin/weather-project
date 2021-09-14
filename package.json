@@ -6,16 +6,23 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.4",
+    "google-map-react": "^2.1.10",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sass": "^1.39.2",
+    "surge": "^0.23.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "surge": "react-scripts build && surge build weather-quentinjcb.surge.sh"
   },
   "eslintConfig": {
     "extends": [
