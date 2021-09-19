@@ -1,0 +1,27 @@
+@use 'reset';
+@use 'vars';
+
+*{
+  box-sizing: border-box;
+  
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-repeat:no-repeat;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  
+}
+
+/* 
+  // or you can import your own font
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+*/
